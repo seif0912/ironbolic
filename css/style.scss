@@ -1,0 +1,84 @@
+/* Start Global rules */
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../impact/impact.ttf') format('truetype');
+    font-weight: bold;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    box-sizing: border-box;
+    --text-color: #e6e4e5;
+    --typing-color: #bbbbbb;
+    --theme-color: #2ecc71;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: '', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+
+/*medium*/
+
+@media (min-width:992px) {
+    .container {
+        width: 920px;
+    }
+}
+
+
+/*large*/
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/*extra large*/
+
+@media (min-width:1440px) {
+    .container {
+        width: 1400px;
+    }
+}
+
+
+/* End Global rules */
+
+
+h1{
+    font-family: impact;
+}
